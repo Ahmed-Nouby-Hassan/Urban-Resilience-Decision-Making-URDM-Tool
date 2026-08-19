@@ -22,10 +22,10 @@ The tool involves simple steps of user input, background processes, and results 
 # Module 1: Strategy Comparative Assessment Module
 Module 1, strategy comparative assessment module, represents the user input of building level existing project. The goal is to compare a proposed strategy with an existing one in a retrospective process, bringing performance metrics in early decision-making. From the strategies database, the user select the baseline strategy they want to compare to, alternative strategies, and resilience indicators to be included in the analysis. From the module database, weather scenarios and coefficients and thresholds required for the methodology, mentioned in 5.1.1. Methodology section of the thesis, are called. Using simplified physics-based equations and simulations, a Python code runs in the background and generates weather scenarios analysis and comparison results in bar charts.
 
-<img width="915" height="523" alt="image" src="https://github.com/user-attachments/assets/f60f50e0-393a-4c41-a083-306a5bcf6185" />
+<img width="7357" height="4448" alt="18 - Copy" src="https://github.com/user-attachments/assets/8139ac93-3511-4710-8b59-e9974dd3d5fe" />
 
 Methodology:
-
+<img width="6949" height="3886" alt="38" src="https://github.com/user-attachments/assets/d9411301-fb5a-4d2a-9632-0736a5f80d5e" />
 
 # Module 2: Strategy Ranking Module
 Module 2, strategy ranking module, represents the user input of building or neighborhood levels new projects. The goal is to prioritize strategies for a new urban development project based on different stakeholders’ profiles and strategies interactions. The user selects the decision-making aspects they want to include and formulate their preference profile, which happens by either selecting a predefined stakeholder profile with ready-to-use preferences or by inputting pairwise comparisons of the strategies dimensions according to AHP method and ranking resilience objectives to use ROC method. The Python code uses these weights to calculate objectives achievement (OA) and dimensions suitability (DS) scores according to the methodology mentioned 5.2.1. Methodology section of the thesis. Strategies interactions are also studied using network analysis theory. Results include heatmaps and bar charts for OA, DS, and adoption (A) scores.
@@ -33,16 +33,10 @@ Module 2, strategy ranking module, represents the user input of building or neig
 <img width="7357" height="4960" alt="18 - Copy (2)" src="https://github.com/user-attachments/assets/461e87ca-fb0d-4a3e-b711-8bdc27cb3b41" />
 
 Methodology:
-
+<img width="6092" height="4009" alt="43" src="https://github.com/user-attachments/assets/945feb07-66fc-42a7-b7a3-818b869db3aa" />
 
 # Module 3: Strategy Addition Module
 Module 3, strategy addition module, represents the user input of building or neighborhood levels existing projects. The goal is to prioritize strategies that can be added to an existing urban development project to enhance resilience. The user identify the existing strategies in the urban project from the strategies database. Then, the Python code follows the methodology mentioned in 5.3.1. Methodology section of the thesis to generate resilience gap analyses for different decision-making aspects, rank new strategies from the database based on their performance in addressing the identified gaps, and Pareto analysis to identify non-dominated sequential strategies.
 
-
-
 Methodology:
-
-
-
-
-
+<img width="7816" height="5332" alt="49" src="https://github.com/user-attachments/assets/f2a45899-3bbd-45be-b286-5477714e7f97" />
