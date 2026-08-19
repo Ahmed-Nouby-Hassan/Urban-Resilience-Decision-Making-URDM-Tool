@@ -1,4 +1,4 @@
-<img width="5007" height="766" alt="08 - Copy" src="https://github.com/user-attachments/assets/2c8c588b-7fe7-4f7d-a777-73766ed91872" /># Urban-Resilience-Decision-Making-URDM-Tool
+# Urban Resilience Decision-Making Tool (URDM)
 Urban Resilience Decision Making supports early-stage prefeasibility comparison of energy and green infrastructure resilience strategies for buildings and neighborhoods. It helps stakeholders explore objectives, compare strategies, and identify priorities for deeper analysis in later design stages.
 
 Four decision-making aspects are considered. First and second, strategies contributions to resilience capacities and objectives is considered as strategies differ in their benefits or concerns for long- and short-term capacities and for energy and thermal resilience objectives.
@@ -18,6 +18,11 @@ Fourth, strategies interact together in the larger resilience network. Two strat
 The tool integrates probabilistic simulations for resilience capacities and objectives as well as strategies dimensions. Network analysis theory is used for strategies interactions. Simplified physics-based equations and simulations are used for resilience indicators. More details about the methodology can be found in the thesis, kindly contact the author.
 This guide provides step-by-step instructions on how to use the tool.
 The tool involves simple steps of user input, background processes, and results generation. The tool utilizes Python-based desktop application development approach. Initially, the user selects the urban level (building and neighborhoods) and project type (new or existing) from two drop down lists. According to these inputs, three different modules appear.
+
+# Module 1: Strategy Comparative Assessment Module
+Module 1, strategy comparative assessment module, represents the user input of building level existing project. The goal is to compare a proposed strategy with an existing one in a retrospective process, bringing performance metrics in early decision-making. From the strategies database, the user select the baseline strategy they want to compare to, alternative strategies, and resilience indicators to be included in the analysis. From the module database, weather scenarios and coefficients and thresholds required for the methodology, mentioned in 5.1.1. Methodology section of the thesis, are called. Using simplified physics-based equations and simulations, a Python code runs in the background and generates weather scenarios analysis and comparison results in bar charts.
+
+<img width="915" height="523" alt="image" src="https://github.com/user-attachments/assets/f60f50e0-393a-4c41-a083-306a5bcf6185" />
 
 
 
