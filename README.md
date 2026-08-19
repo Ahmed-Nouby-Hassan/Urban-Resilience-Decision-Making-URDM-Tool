@@ -24,5 +24,25 @@ Module 1, strategy comparative assessment module, represents the user input of b
 
 <img width="915" height="523" alt="image" src="https://github.com/user-attachments/assets/f60f50e0-393a-4c41-a083-306a5bcf6185" />
 
+Methodology:
+
+
+# Module 2: Strategy Ranking Module
+Module 2, strategy ranking module, represents the user input of building or neighborhood levels new projects. The goal is to prioritize strategies for a new urban development project based on different stakeholders’ profiles and strategies interactions. The user selects the decision-making aspects they want to include and formulate their preference profile, which happens by either selecting a predefined stakeholder profile with ready-to-use preferences or by inputting pairwise comparisons of the strategies dimensions according to AHP method and ranking resilience objectives to use ROC method. The Python code uses these weights to calculate objectives achievement (OA) and dimensions suitability (DS) scores according to the methodology mentioned 5.2.1. Methodology section of the thesis. Strategies interactions are also studied using network analysis theory. Results include heatmaps and bar charts for OA, DS, and adoption (A) scores.
+
+<img width="7357" height="4960" alt="18 - Copy (2)" src="https://github.com/user-attachments/assets/461e87ca-fb0d-4a3e-b711-8bdc27cb3b41" />
+
+Methodology:
+
+
+# Module 3: Strategy Addition Module
+Module 3, strategy addition module, represents the user input of building or neighborhood levels existing projects. The goal is to prioritize strategies that can be added to an existing urban development project to enhance resilience. The user identify the existing strategies in the urban project from the strategies database. Then, the Python code follows the methodology mentioned in 5.3.1. Methodology section of the thesis to generate resilience gap analyses for different decision-making aspects, rank new strategies from the database based on their performance in addressing the identified gaps, and Pareto analysis to identify non-dominated sequential strategies.
+
+
+
+Methodology:
+
+
+
 
 
